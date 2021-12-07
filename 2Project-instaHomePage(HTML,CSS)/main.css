@@ -1,0 +1,184 @@
+.Container{
+	margin:0px auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding:20px;
+}
+
+.NameContainer{
+	display: flex;
+	margin: 0px auto;
+	margin-top: 30px;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	padding:10px;
+	width:50%;
+}
+
+.IN{
+	display: flex;
+	justify-content: space-around;
+}
+
+.Details{
+	border:0.5px solid lightgrey;
+	display: flex;
+	display: grid;
+	grid-row-gap: 6px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-left: 40px;
+	padding-right: 40px;
+	width:77%;
+}
+
+.btnClass{
+	border:0.5px solid lightgrey;
+	border-radius: 3.5px;
+	line-height: 35px;
+	width:270px;
+	display: grid;
+	background-color: rgba(250,249,245,1);
+	text-indent: 5px;
+	font-size: 0.75em;
+	font-color:lightgrey;
+}
+
+#login{
+	font-size: 0.9em;
+	line-height: 27px;
+	width:277px;
+	font-weight: bold;
+	opacity: 0.7;
+	border:none;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+#title{
+
+	font-family: "Lucida Handwriting";
+	margin-top: 25px;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 35px;
+}
+
+#fbt{
+	color: darkblue;
+	text-align: center;
+	font-family: "Segoe UI Semibold";
+}
+
+.Logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: 5px;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+}
+
+#fbi{
+	height:15px;
+	width:15px;
+	margin-right: 8px; 
+}
+
+#or{
+	margin: 0px auto;
+	font-family:  "Segoe UI Semibold";
+	color: grey;
+	width:33%;
+}
+.or{
+	display: flex;
+	justify-content: space-between;
+	width:auto;
+	text-align: center;
+}
+
+#fp{
+	font-family: "Segoe UI Semibold";
+	color:darkblue;
+	text-align: center;
+	margin:0px auto;
+}
+.dis{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.sign{
+	font-size:0.8em;
+	margin-top: 10px;
+	font-family: "Segoe UI";
+	border: 0.5px solid lightgrey;
+	padding: 20px;
+	padding-left: 88px;
+}
+
+.Images{
+	margin-right: 20px;
+	animation: ani 30s infinite;
+	width:240px;
+	height:430px;
+	background-image: url("images/insta1.jpg");
+}
+
+@keyframes ani{
+	20% {
+		background-image: url("images/insta2.jpg");
+	}
+	50%{
+		background-image: url("images/insta3.jpg");
+	}
+	80%{
+		background-image: url("images/insta4.jpg");
+	}
+	90%{
+		background-image: url("images/insta5.jpg");
+	}
+}
+
+
+#app{
+	font-size: 0.85em;
+	font-family: "Segoe UI";
+	text-align: center;
+}
+
+.ag{
+	opacity: 0.95;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+
+.agps{
+	height: 35px;
+	padding:10px;
+	margin: 3px;
+}
+
+.Trailer{
+	margin-top: 20px;
+	padding:3px;
+	font-size: 0.8em;
+	color:darkblue;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: "Segoe UI Semibold";
+}
+
+.p{
+	margin-right: 20px;
+}
+
+.heads{
+	display: flex;
+	justify-content: 5px;
+}
